@@ -1,0 +1,55 @@
+*{
+    box-sizing: border;
+}
+
+h2{
+    font-family: 'Old Standard TT', 'serif'; 
+    font-weight: 900;
+    font-size: 5em;
+    margin-bottom: -30px; /*to undo gap*/
+}
+
+input[type="submit"]{
+    font-family: 'Old Standard TT', 'serif'; 
+}
+
+p, label{
+    font-family: 'Lato', 'sans-serif';
+}
+
+header p{
+    color: #4C4C4C;
+}
+
+label, input[type="submit"]{
+    font-size: 3em;
+}
+
+input{
+    display: block;
+    margin: 10px auto; /*space out from top to bototm and center left to right*/
+}
+
+input[type="text"]{
+    width: 70%;
+    height: 3em;
+    padding: 0px 5px;
+}
+
+input[type="submit"]{
+    height: auto;
+    width: auto;
+    padding: 5px 30px 0px 30px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #4C4C4C;
+}
+
+.search{
+    text-align: center;
+}
