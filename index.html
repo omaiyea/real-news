@@ -17,7 +17,7 @@
             <section class="search">
                 <form id="search-form">
                     <label>Enter something newsworthy.
-                        <input type="text" placeholder="donald trump">
+                        <input type="text" placeholder="donald trump" required>
                     </label>
                     <input type="submit" value="Search">
                 </form>
@@ -25,8 +25,13 @@
             <section class="results">
 
             </section>
+            <section id="js-error-message"></section>
+            <footer>
+                <p>All news articles are collected using <a href="https://newsapi.org/" target="_blank">NewsAPI.org's APIs.</a></p>
+            </footer>
         </main>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="index.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/index.js"></script>
     </body>
 </html>
