@@ -11,23 +11,27 @@
     <body>
         <header>
             <h2>Real News</h2>
-            <p>See news from sources you don't normally use. Check the bias or trustworthiness of any website.</p>
+            <p>See news from sources you don't normally use. Check the bias or trustworthiness of any website before you read the article.</p>
         </header>
         <main>
             <section class="search">
                 <form id="search-form">
-                    <label>Enter something newsworthy.
+                    <label><h3>Enter something newsworthy:</h3>
                         <input type="text" placeholder="donald trump" required>
                     </label>
                     <input type="submit" value="Search">
                 </form>
             </section>
-            <section class="results">
+            <section class="results-description">
 
+            </section>
+            <section class="results">
+                
             </section>
             <section id="js-error-message"></section>
             <footer>
                 <p>All news articles are collected using <a href="https://newsapi.org/" target="_blank">NewsAPI.org's APIs.</a></p>
+                <p>Trustworthiness data is collected from.... well... it's not implemented yet.</p>
             </footer>
         </main>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
